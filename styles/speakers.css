@@ -3,9 +3,40 @@
     
   display: grid;
   grid-template-columns: repeat(2, 1fr); 
-  gap: 30px;
+  gap: 40px;
+  /* justify-content: center; */
 }
 
 .meet{
     text-align: center;
+}
+.spek{
+    height: 460px;
+    width: 644px;
+    background-color: #e5e7eb;
+    border-radius: 10px;
+
+}
+
+.field{
+    color: #2563eb;
+    padding-left: 8px;
+}
+
+.name{
+    padding-left: 8px;
+    
+    color: #0d1b2a;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.post{
+    padding-left: 8px;
+    color: #575757;
+}
+
+.text2{
+    display: flex;
+    flex-direction: column;
 }
