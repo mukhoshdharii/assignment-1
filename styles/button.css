@@ -8,8 +8,11 @@
   cursor: pointer;
 }
 
-.reg-btn:hover{
-    background-color:  rgb(8, 44, 78);
+.reg-btn1:hover{
+    background-color:  rgb(35, 37, 11);
+}
+.reg-btn2:hover{
+    background-color:  rgb(35, 37, 11);
 }
 
 .reg-btn2{
@@ -22,6 +25,3 @@
   cursor: pointer;
 }
 
-button:hover{
-    background-color:  rgb(8, 44, 78);
-}

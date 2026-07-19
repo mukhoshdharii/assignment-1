@@ -39,39 +39,68 @@
 }
 
 .std-btn{
-    border-radius: 8px;
     width: 304.66px;
     height: 45px;
+
+    border: 1px solid #888888;
+    border-radius: 8px;
+
+    background-color: white;
+    color: #0d1b2a;
 }
 
 .pro-btn{
-    border-radius: 8px;
     width: 304.66px;
     height: 45px;
+
     background-color: #2563eb;
-    border-color: #2563eb;
-    color: #ffffff;
+    color: white;
+
+    border: 1px solid #2563eb;
+    border-radius: 8px;
 }
 
 .cts-btn{
-    border-radius: 8px;
     width: 304.66px;
     height: 45px;
+
+    border: 1px solid #888888;
+    border-radius: 8px;
+
+    background-color: white;
 }
 
 .price-btn{
     
     padding-left: 30px;
-    margin-top: 85px;
+    margin-top: 45px;
     
 }
 
-.list{
-    font-size: 1.25rem;
-    
+.listt{
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 25px;
+    font-size: 1.2rem;
+}
+.listt li::marker{
+    padding-top: 25px;
+    color: #2563eb;
+    font-size: 1.2em;
 }
 
 .phead{
+    padding-bottom: 10px;
     border-bottom: 1px solid #e5e7eb;
-    padding-bottom: 8%;
+    
+}
+
+.pro-btn:hover{
+    background-color:  rgb(108, 206, 124);
+}
+.std-btn:hover{
+    background-color:  rgb(108, 206, 124);
+}
+.cts-btn:hover{
+    background-color:  rgb(108, 206, 124);
 }
