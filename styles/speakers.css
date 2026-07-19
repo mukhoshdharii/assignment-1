@@ -4,9 +4,12 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr); 
   gap: 40px;
+<<<<<<< HEAD
   justify-content: space-between;
   align-items: center;
   background-size: cover;
+=======
+>>>>>>> 84096162d39cabf5440afc96eec88d8a90bd9c8c
   /* justify-content: center; */
 }
 

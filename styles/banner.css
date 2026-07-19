@@ -3,7 +3,11 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+<<<<<<< HEAD
     height: 780px;
+=======
+    height: 400px;
+>>>>>>> 84096162d39cabf5440afc96eec88d8a90bd9c8c
     justify-content: center;
     align-items: center;
     color: white;
@@ -16,7 +20,11 @@
 .reg-btn2{
     display: block;    
   margin: 30px auto 0; 
+<<<<<<< HEAD
   margin-top: 270px;
+=======
+  margin-top: 220px;
+>>>>>>> 84096162d39cabf5440afc96eec88d8a90bd9c8c
   
   
   
