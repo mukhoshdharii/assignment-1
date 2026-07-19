@@ -1,19 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DEVCONF 2026 — Generated Sections Preview</title>
     <link rel="stylesheet" href="styles/button.css">
     <link rel="stylesheet" href="styles/nav-bar.css">
     <link rel="stylesheet" href="styles/banner.css">
     <link rel="stylesheet" href="styles/speakers.css">
     <link rel="stylesheet" href="styles/pricing.css">
-</head>
 
-<body>
-    <section class="nav">
+<!--
+  DEVCONF 2026 — Generated Sections
+  =================================
+  Replaces the "Generate with AI" placeholder with 5 production sections:
+    1. Global Hackathon Challenge
+    2. Startup Showcase
+    3. Global Developer Community
+    4. Interactive Experience Zone
+    5. Why Attend DEVCONF 2026?
+
+  Design tokens extracted directly from the uploaded DevConf2026.penpot file
+  (not assumed): Inter typeface, navy #0d1b2a, blue #2563eb/#1d4ed8/#60a5fa,
+  purple #7c3aed/#9f67ea, border #e5e7eb, surface #f8f9fb, 12px/8px radii,
+  1320px container, 80px section padding. Drop this file's <section> blocks
+  in place of the placeholder; the <head> assets can be merged into your
+  existing <head> (skip duplicates if already present).
+-->
+
+
+<!-- ============ HEAD ASSETS (merge into existing <head>, skip dupes) ============ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          ink: '#0d1b2a',
+          body: '#575757',
+          muted: '#888888',
+          border: '#e5e7eb',
+          surface: '#f8f9fb',
+          brand: { DEFAULT: '#2563eb', dark: '#1d4ed8', light: '#60a5fa', pale: '#93c5fd' },
+          accent: { DEFAULT: '#7c3aed', light: '#9f67ea', pale: '#ede9fe' },
+        },
+        fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+        borderRadius: { xl2: '12px' },
+      }
+    }
+  }
+</script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+<style>
+  .devconf-ai-sections { font-family: 'Inter', system-ui, sans-serif; }
+
+  .devconf-ai-sections .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity .6s cubic-bezier(.16,1,.3,1), transform .6s cubic-bezier(.16,1,.3,1);
+  }
+  .devconf-ai-sections .reveal.is-visible { opacity: 1; transform: translateY(0); }
+
+  .devconf-ai-sections .card-lift { transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease; }
+  .devconf-ai-sections .card-lift:hover { transform: translateY(-4px); box-shadow: 0 20px 40px -16px rgba(13,27,42,0.16); }
+
+  .devconf-ai-sections .btn-primary { transition: background-color .2s ease, transform .2s ease; }
+  .devconf-ai-sections .btn-primary:hover { background-color: #1d4ed8; transform: translateY(-1px); }
+
+  .devconf-ai-sections .btn-ghost { transition: background-color .2s ease, border-color .2s ease, color .2s ease; }
+
+  .devconf-ai-sections .icon-badge {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 48px; height: 48px; border-radius: 12px;
+  }
+
+  .devconf-ai-sections .grad-blue { background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); }
+  .devconf-ai-sections .grad-blue-purple { background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%); }
+  .devconf-ai-sections .grad-purple { background: linear-gradient(135deg, #7c3aed 0%, #9f67ea 100%); }
+
+  .devconf-ai-sections .dot-grid {
+    background-image: radial-gradient(rgba(255,255,255,0.10) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+
+  .devconf-ai-sections .eyebrow {
+    font-size: 13px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .devconf-ai-sections .reveal { opacity: 1; transform: none; transition: none; }
+    .devconf-ai-sections .card-lift:hover { transform: none; }
+  }
+</style>
+
+
+</head>
+<body class="bg-white">
+
+   <section class="nav">
         <div class="logo1">
             <img src="assets/logo.png" alt="">
         </div>
@@ -45,12 +133,12 @@
         <div>
             <button class="reg-btn2">Register Now</button>
         </div>
-    </section>
+    </section> <br><br><br>
 
     <section>
         <div class="meet">
             <h1 style="font-size: 3rem;">Meet the speakers</h1>
-        </div>
+        </div> <br><br>
         <div class="speakers">
             <div class="spek">
                 <img src="assets/andrej.png" alt="Andrej Karpathy">
@@ -110,7 +198,7 @@
                 <span style="color: #888888;">per person</span> <br>
             </div>
             <div>
-                <ul class="list">
+                <ul class="listt">
                     <li>Access to all three conference days</li>
                     <li>48 curated technical talks</li>
                     <li>2 workshop sessions</li>
@@ -130,7 +218,7 @@
                 <span style="color: #888888;">per person</span> <br>
             </div>
             <div>
-                <ul class="list">
+                <ul class="listt">
                     <li>Everything in standard</li>
                     <li>Unlimited workshop access</li>
                     <li>Speaker meet & greet</li>
@@ -150,7 +238,7 @@
                 <span style="color: #888888;">up to 10 per person</span> <br>
             </div>
             <div>
-                <ul class="list">
+                <ul class="listt">
                     <li>Everything in pro (10 seats)</li>
                     <li>Dedicated team lounge access</li>
                     <li>Private workshop booking</li>
@@ -163,7 +251,474 @@
                 <button class="cts-btn">Contact Us</button>
             </div>
         </div>
-    </section>
-</body>
+    </section> <br><br><br><br><br>
 
+<!-- ============ SECTIONS ============ -->
+<div class="devconf-ai-sections bg-white">
+
+  <!-- ==========================================================
+       SECTION 1 — Global Hackathon Challenge (dark navy, event mode)
+       ========================================================== -->
+  <section class="relative bg-ink overflow-hidden">
+    <div class="absolute inset-0 dot-grid opacity-40"></div>
+    <div class="absolute -top-24 -right-24 w-[420px] h-[420px] rounded-full bg-brand/20 blur-[100px]"></div>
+    <div class="absolute -bottom-32 -left-16 w-[380px] h-[380px] rounded-full bg-accent/20 blur-[100px]"></div>
+
+    <div class="relative max-w-[1320px] mx-auto px-6 md:px-[60px] py-20 md:py-24">
+      <div class="grid lg:grid-cols-12 gap-14 items-start">
+
+        <!-- Left: pitch + big stat + CTA -->
+        <div class="lg:col-span-5 reveal">
+          <span class="eyebrow text-brand-light">48-Hour Competition</span>
+          <h2 class="mt-4 text-4xl md:text-5xl font-extrabold text-white leading-[1.1]">
+            Global Hackathon<br class="hidden sm:block"> Challenge
+          </h2>
+          <p class="mt-5 text-base md:text-lg text-slate-300 max-w-md">
+            Build innovative solutions with developers from around the world during an exciting 48-hour competition.
+          </p>
+
+          <div class="mt-10 flex items-end gap-3">
+            <span class="text-6xl md:text-7xl font-extrabold text-white tracking-tight">$100K</span>
+            <span class="text-sm font-semibold text-slate-400 mb-2">total prize pool</span>
+          </div>
+
+          <div class="mt-10 rounded-xl2 border border-white/10 bg-white/5 p-6">
+            <h3 class="text-white font-bold text-lg">Ready to Build the Future?</h3>
+            <p class="text-slate-400 text-sm mt-1 mb-5">Teams of up to 4. Solo builders welcome — we'll help you find a squad.</p>
+            <button class="btn-primary w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-brand text-white font-semibold text-sm px-6 py-3 rounded-lg">
+              Join the Hackathon
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Right: bento feature grid -->
+        <div class="lg:col-span-7 reveal" style="transition-delay:.1s">
+          <div class="grid grid-cols-2 gap-4">
+
+            <div class="card-lift col-span-2 rounded-xl2 border border-white/10 bg-white/[0.04] p-6 flex items-center gap-5">
+              <div class="icon-badge grad-blue shrink-0">
+                <i data-lucide="trophy" class="w-6 h-6 text-white"></i>
+              </div>
+              <div>
+                <h4 class="text-white font-bold">$100,000 Prize Pool</h4>
+                <p class="text-slate-400 text-sm mt-1">Cash awards across every category, plus cloud credits and mentorship for winning teams.</p>
+              </div>
+            </div>
+
+            <div class="card-lift rounded-xl2 border border-white/10 bg-white/[0.04] p-6">
+              <div class="icon-badge grad-purple mb-4">
+                <i data-lucide="users" class="w-6 h-6 text-white"></i>
+              </div>
+              <h4 class="text-white font-bold">Team Matching</h4>
+              <p class="text-slate-400 text-sm mt-1">Find teammates by skill, timezone, and interest before the clock starts.</p>
+            </div>
+
+            <div class="card-lift rounded-xl2 border border-white/10 bg-white/[0.04] p-6">
+              <div class="icon-badge grad-blue-purple mb-4">
+                <i data-lucide="bot" class="w-6 h-6 text-white"></i>
+              </div>
+              <h4 class="text-white font-bold">AI, Web, Mobile & Cloud</h4>
+              <p class="text-slate-400 text-sm mt-1">Four categories, one shared demo stage — build in whatever you know best.</p>
+            </div>
+
+            <div class="card-lift rounded-xl2 border border-white/10 bg-white/[0.04] p-6">
+              <div class="icon-badge grad-blue mb-4">
+                <i data-lucide="mic" class="w-6 h-6 text-white"></i>
+              </div>
+              <h4 class="text-white font-bold">Live Demo Day</h4>
+              <p class="text-slate-400 text-sm mt-1">Present on the main stage in front of the full DEVCONF audience.</p>
+            </div>
+
+            <div class="card-lift rounded-xl2 border border-white/10 bg-white/[0.04] p-6">
+              <div class="icon-badge grad-purple mb-4">
+                <i data-lucide="rocket" class="w-6 h-6 text-white"></i>
+              </div>
+              <h4 class="text-white font-bold">Startup & VC Judges</h4>
+              <p class="text-slate-400 text-sm mt-1">Get real feedback — and real term sheets — from active investors.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==========================================================
+       SECTION 2 — Startup Showcase (white)
+       ========================================================== -->
+  <section class="bg-white">
+    <div class="max-w-[1320px] mx-auto px-6 md:px-[60px] py-20 md:py-24">
+
+      <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 reveal">
+        <div class="max-w-xl">
+          <span class="eyebrow text-brand">Innovation Floor</span>
+          <h2 class="mt-4 text-4xl md:text-5xl font-extrabold text-ink leading-[1.1]">Startup Showcase</h2>
+          <p class="mt-5 text-base md:text-lg text-body">
+            Discover groundbreaking startups, connect with founders, and meet investors shaping tomorrow's technology.
+          </p>
+        </div>
+
+        <!-- stat strip -->
+        <div class="flex gap-8 sm:gap-10 shrink-0">
+          <div>
+            <div class="text-3xl font-extrabold text-ink">100+</div>
+            <div class="text-sm text-body mt-1">Startups</div>
+          </div>
+          <div class="w-px bg-border"></div>
+          <div>
+            <div class="text-3xl font-extrabold text-ink">50+</div>
+            <div class="text-sm text-body mt-1">Investors</div>
+          </div>
+          <div class="w-px bg-border"></div>
+          <div>
+            <div class="text-3xl font-extrabold text-ink">20</div>
+            <div class="text-sm text-body mt-1">Pitch Sessions</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- asymmetric feature grid: 1 large + 4 in a row -->
+      <div class="mt-14 grid md:grid-cols-2 gap-6 reveal" style="transition-delay:.1s">
+
+        <div class="card-lift md:row-span-2 rounded-xl2 border border-border bg-surface p-8 flex flex-col justify-between">
+          <div>
+            <div class="icon-badge bg-brand/10 mb-6">
+              <i data-lucide="monitor-play" class="w-6 h-6 text-brand"></i>
+            </div>
+            <h3 class="text-xl font-bold text-ink">Live Product Demos</h3>
+            <p class="text-body text-sm mt-2 leading-relaxed">
+              Walk the floor and see working products, not slide decks. Founders demo live builds and take questions on the spot.
+            </p>
+          </div>
+          <a href="#" class="inline-flex items-center gap-1.5 text-brand font-semibold text-sm mt-6">
+            See the demo schedule <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+
+        <div class="card-lift rounded-xl2 border border-border bg-white p-6 flex items-start gap-4">
+          <div class="icon-badge bg-accent-pale shrink-0">
+            <i data-lucide="mic-2" class="w-5 h-5 text-accent"></i>
+          </div>
+          <div>
+            <h4 class="font-bold text-ink">Founder Pitch Stage</h4>
+            <p class="text-body text-sm mt-1">Five-minute pitches, judged live, streamed to the whole conference.</p>
+          </div>
+        </div>
+
+        <div class="card-lift rounded-xl2 border border-border bg-white p-6 flex items-start gap-4">
+          <div class="icon-badge bg-brand/10 shrink-0">
+            <i data-lucide="handshake" class="w-5 h-5 text-brand"></i>
+          </div>
+          <div>
+            <h4 class="font-bold text-ink">Investor Networking</h4>
+            <p class="text-body text-sm mt-1">Structured intros and open office hours with 50+ active investors.</p>
+          </div>
+        </div>
+
+        <div class="card-lift rounded-xl2 border border-border bg-white p-6 flex items-start gap-4">
+          <div class="icon-badge bg-accent-pale shrink-0">
+            <i data-lucide="award" class="w-5 h-5 text-accent"></i>
+          </div>
+          <div>
+            <h4 class="font-bold text-ink">Startup Awards</h4>
+            <p class="text-body text-sm mt-1">Recognizing the year's most promising early-stage teams.</p>
+          </div>
+        </div>
+
+        <div class="card-lift rounded-xl2 border border-border bg-white p-6 flex items-start gap-4">
+          <div class="icon-badge bg-brand/10 shrink-0">
+            <i data-lucide="building-2" class="w-5 h-5 text-brand"></i>
+          </div>
+          <div>
+            <h4 class="font-bold text-ink">Incubator & Accelerator Booths</h4>
+            <p class="text-body text-sm mt-1">Meet programs actively recruiting their next cohort.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-10 flex justify-center reveal">
+        <button class="btn-primary inline-flex items-center gap-2 bg-brand text-white font-semibold text-sm px-7 py-3.5 rounded-lg">
+          Explore Startups
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==========================================================
+       SECTION 3 — Global Developer Community (light gray band)
+       ========================================================== -->
+  <section class="bg-surface border-y border-border">
+    <div class="max-w-[1320px] mx-auto px-6 md:px-[60px] py-20 md:py-24">
+
+      <div class="text-center max-w-2xl mx-auto reveal">
+        <span class="eyebrow text-brand">DEVCONF Worldwide</span>
+        <h2 class="mt-4 text-4xl md:text-5xl font-extrabold text-ink leading-[1.1]">Join a Global Community</h2>
+        <p class="mt-5 text-base md:text-lg text-body">
+          Developers, creators, founders, students, and technology leaders from around the world.
+        </p>
+      </div>
+
+      <div class="mt-16 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-10 reveal" style="transition-delay:.1s" id="community-stats">
+        <div class="text-center border-l-2 border-brand/30 pl-4">
+          <div class="counter text-3xl md:text-4xl font-extrabold text-ink" data-target="4000" data-suffix="+">0</div>
+          <div class="text-sm text-body mt-2">Attendees</div>
+        </div>
+        <div class="text-center border-l-2 border-brand/30 pl-4">
+          <div class="counter text-3xl md:text-4xl font-extrabold text-ink" data-target="80" data-suffix="+">0</div>
+          <div class="text-sm text-body mt-2">Countries</div>
+        </div>
+        <div class="text-center border-l-2 border-brand/30 pl-4">
+          <div class="counter text-3xl md:text-4xl font-extrabold text-ink" data-target="300" data-suffix="+">0</div>
+          <div class="text-sm text-body mt-2">Companies</div>
+        </div>
+        <div class="text-center border-l-2 border-accent/30 pl-4">
+          <div class="counter text-3xl md:text-4xl font-extrabold text-ink" data-target="48" data-suffix="">0</div>
+          <div class="text-sm text-body mt-2">Technical Sessions</div>
+        </div>
+        <div class="text-center border-l-2 border-accent/30 pl-4">
+          <div class="counter text-3xl md:text-4xl font-extrabold text-ink" data-target="120" data-suffix="+">0</div>
+          <div class="text-sm text-body mt-2">Open Source Projects</div>
+        </div>
+        <div class="text-center border-l-2 border-accent/30 pl-4">
+          <div class="counter text-3xl md:text-4xl font-extrabold text-ink" data-target="25" data-suffix="+">0</div>
+          <div class="text-sm text-body mt-2">Workshops</div>
+        </div>
+      </div>
+
+      <div class="mt-14 flex justify-center reveal">
+        <button class="btn-primary inline-flex items-center gap-2 bg-brand text-white font-semibold text-sm px-7 py-3.5 rounded-lg">
+          Become Part of the Community
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==========================================================
+       SECTION 4 — Interactive Experience Zone (white)
+       ========================================================== -->
+  <section class="bg-white">
+    <div class="max-w-[1320px] mx-auto px-6 md:px-[60px] py-20 md:py-24">
+
+      <div class="max-w-2xl reveal">
+        <span class="eyebrow text-accent">Hands-On Floor</span>
+        <h2 class="mt-4 text-4xl md:text-5xl font-extrabold text-ink leading-[1.1]">Experience the Future</h2>
+        <p class="mt-5 text-base md:text-lg text-body">
+          Hands-on experiences with the latest technologies from industry-leading companies.
+        </p>
+      </div>
+
+      <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-6 reveal" style="transition-delay:.1s">
+
+        <div class="card-lift group rounded-xl2 border border-border overflow-hidden">
+          <div class="h-28 grad-blue flex items-center justify-center">
+            <i data-lucide="bot" class="w-9 h-9 text-white/90 group-hover:scale-110 transition-transform"></i>
+          </div>
+          <div class="p-6">
+            <h4 class="font-bold text-ink">AI Playground</h4>
+            <p class="text-body text-sm mt-1.5">Prototype with the newest models in a sandboxed, no-setup environment.</p>
+          </div>
+        </div>
+
+        <div class="card-lift group rounded-xl2 border border-border overflow-hidden">
+          <div class="h-28 grad-purple flex items-center justify-center">
+            <i data-lucide="glasses" class="w-9 h-9 text-white/90 group-hover:scale-110 transition-transform"></i>
+          </div>
+          <div class="p-6">
+            <h4 class="font-bold text-ink">VR Development Lab</h4>
+            <p class="text-body text-sm mt-1.5">Build and test spatial interfaces on the latest headset hardware.</p>
+          </div>
+        </div>
+
+        <div class="card-lift group rounded-xl2 border border-border overflow-hidden">
+          <div class="h-28 grad-blue-purple flex items-center justify-center">
+            <i data-lucide="cloud" class="w-9 h-9 text-white/90 group-hover:scale-110 transition-transform"></i>
+          </div>
+          <div class="p-6">
+            <h4 class="font-bold text-ink">Cloud Sandbox</h4>
+            <p class="text-body text-sm mt-1.5">Spin up real infrastructure to try managed services, free for the day.</p>
+          </div>
+        </div>
+
+        <div class="card-lift group rounded-xl2 border border-border overflow-hidden">
+          <div class="h-28 grad-blue flex items-center justify-center">
+            <i data-lucide="terminal" class="w-9 h-9 text-white/90 group-hover:scale-110 transition-transform"></i>
+          </div>
+          <div class="p-6">
+            <h4 class="font-bold text-ink">Live Coding Arena</h4>
+            <p class="text-body text-sm mt-1.5">Watch head-to-head coding battles, or grab a seat and compete.</p>
+          </div>
+        </div>
+
+        <div class="card-lift group rounded-xl2 border border-border overflow-hidden">
+          <div class="h-28 grad-purple flex items-center justify-center">
+            <i data-lucide="cpu" class="w-9 h-9 text-white/90 group-hover:scale-110 transition-transform"></i>
+          </div>
+          <div class="p-6">
+            <h4 class="font-bold text-ink">Robotics Showcase</h4>
+            <p class="text-body text-sm mt-1.5">See autonomous systems and hardware demos from research teams.</p>
+          </div>
+        </div>
+
+        <div class="card-lift group rounded-xl2 border border-border overflow-hidden">
+          <div class="h-28 grad-blue-purple flex items-center justify-center">
+            <i data-lucide="zap" class="w-9 h-9 text-white/90 group-hover:scale-110 transition-transform"></i>
+          </div>
+          <div class="p-6">
+            <h4 class="font-bold text-ink">Emerging Tech Demos</h4>
+            <p class="text-body text-sm mt-1.5">A rotating showcase of what's next, straight from the labs building it.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mt-10 flex justify-center reveal">
+        <button class="btn-ghost inline-flex items-center gap-2 border-2 border-brand text-brand hover:bg-brand hover:text-white font-semibold text-sm px-7 py-3 rounded-lg">
+          Explore Experiences
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==========================================================
+       SECTION 5 — Why Attend DEVCONF 2026? (white + closing CTA banner)
+       ========================================================== -->
+  <section class="bg-white">
+    <div class="max-w-[1320px] mx-auto px-6 md:px-[60px] py-20 md:py-24">
+
+      <div class="text-center max-w-2xl mx-auto reveal">
+        <span class="eyebrow text-brand">The Case for DEVCONF</span>
+        <h2 class="mt-4 text-4xl md:text-5xl font-extrabold text-ink leading-[1.1]">Why Attend DEVCONF 2026?</h2>
+        <p class="mt-5 text-base md:text-lg text-body">
+          More than a conference — an opportunity to learn, connect, and grow.
+        </p>
+      </div>
+
+      <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-border rounded-xl2 overflow-hidden reveal" style="transition-delay:.1s">
+
+        <div class="bg-white p-7 hover:bg-surface transition-colors">
+          <i data-lucide="graduation-cap" class="w-6 h-6 text-brand"></i>
+          <h4 class="font-bold text-ink mt-4">Learn from Industry Leaders</h4>
+          <p class="text-body text-sm mt-1.5">Sessions led by the engineers actually shipping the technology.</p>
+        </div>
+
+        <div class="bg-white p-7 hover:bg-surface transition-colors">
+          <i data-lucide="network" class="w-6 h-6 text-accent"></i>
+          <h4 class="font-bold text-ink mt-4">Expand Your Network</h4>
+          <p class="text-body text-sm mt-1.5">Meet peers, mentors, and collaborators from 80+ countries.</p>
+        </div>
+
+        <div class="bg-white p-7 hover:bg-surface transition-colors">
+          <i data-lucide="sparkles" class="w-6 h-6 text-brand"></i>
+          <h4 class="font-bold text-ink mt-4">Discover New Technologies</h4>
+          <p class="text-body text-sm mt-1.5">Hands-on time with tools before they hit general availability.</p>
+        </div>
+
+        <div class="bg-white p-7 hover:bg-surface transition-colors">
+          <i data-lucide="wrench" class="w-6 h-6 text-accent"></i>
+          <h4 class="font-bold text-ink mt-4">Hands-on Workshops</h4>
+          <p class="text-body text-sm mt-1.5">Small-group, project-based sessions — no passive watching.</p>
+        </div>
+
+        <div class="bg-white p-7 hover:bg-surface transition-colors">
+          <i data-lucide="briefcase" class="w-6 h-6 text-brand"></i>
+          <h4 class="font-bold text-ink mt-4">Career Opportunities</h4>
+          <p class="text-body text-sm mt-1.5">Meet hiring teams from 300+ companies on the sponsor floor.</p>
+        </div>
+
+        <div class="bg-white p-7 hover:bg-surface transition-colors">
+          <i data-lucide="git-branch" class="w-6 h-6 text-accent"></i>
+          <h4 class="font-bold text-ink mt-4">Open Source Collaboration</h4>
+          <p class="text-body text-sm mt-1.5">Contribute directly to 120+ active projects during the event.</p>
+        </div>
+
+        <div class="bg-white p-7 hover:bg-surface transition-colors">
+          <i data-lucide="globe" class="w-6 h-6 text-brand"></i>
+          <h4 class="font-bold text-ink mt-4">Global Networking</h4>
+          <p class="text-body text-sm mt-1.5">A genuinely international crowd, not just a local meetup at scale.</p>
+        </div>
+
+        <div class="bg-white p-7 hover:bg-surface transition-colors">
+          <i data-lucide="rocket" class="w-6 h-6 text-accent"></i>
+          <h4 class="font-bold text-ink mt-4">Startup & Innovation Opportunities</h4>
+          <p class="text-body text-sm mt-1.5">Pitch, invest, or just get inspired at the Startup Showcase.</p>
+        </div>
+
+      </div>
+
+      <!-- Closing CTA banner -->
+      <div class="mt-16 relative overflow-hidden rounded-xl2 grad-blue-purple px-8 md:px-16 py-14 text-center reveal">
+        <div class="absolute inset-0 dot-grid opacity-20"></div>
+        <div class="relative">
+          <h3 class="text-2xl md:text-4xl font-extrabold text-white leading-tight">
+            Ready to Shape the Future of Technology?
+          </h3>
+          <button class="mt-8 inline-flex items-center gap-2 bg-white text-ink font-semibold text-sm px-8 py-3.5 rounded-lg hover:bg-slate-100 transition-colors">
+            Register Today
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ============ SCRIPT (place once, at end of body) ============ -->
+<script>
+  (function () {
+    if (window.__devconfAiSectionsInit) return;
+    window.__devconfAiSectionsInit = true;
+
+    document.addEventListener('DOMContentLoaded', function () {
+      // Icons
+      if (window.lucide) lucide.createIcons();
+
+      // Scroll reveal
+      var revealEls = document.querySelectorAll('.devconf-ai-sections .reveal');
+      var revealObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.15 });
+      revealEls.forEach(function (el) { revealObserver.observe(el); });
+
+      // Animated counters
+      var counters = document.querySelectorAll('.devconf-ai-sections .counter');
+      var counterObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) return;
+          var el = entry.target;
+          var target = parseInt(el.getAttribute('data-target'), 10) || 0;
+          var suffix = el.getAttribute('data-suffix') || '';
+          var duration = 1400;
+          var start = null;
+
+          function step(ts) {
+            if (!start) start = ts;
+            var progress = Math.min((ts - start) / duration, 1);
+            var eased = 1 - Math.pow(1 - progress, 3);
+            el.textContent = Math.round(eased * target).toLocaleString() + suffix;
+            if (progress < 1) requestAnimationFrame(step);
+          }
+          requestAnimationFrame(step);
+          counterObserver.unobserve(el);
+        });
+      }, { threshold: 0.4 });
+      counters.forEach(function (el) { counterObserver.observe(el); });
+    });
+  })();
+</script>
+
+</body>
 </html>
