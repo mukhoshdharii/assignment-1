@@ -1,0 +1,26 @@
+.nav{
+    display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 15px 30px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-bar{
+    display: flex;
+  list-style: none; 
+  gap: 20px; 
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar a:hover{
+    color: rgb(88, 175, 247);
+}
+
+.nav-bar a{
+    text-decoration: none;
+  color: #333;
+}
+

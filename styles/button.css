@@ -1,0 +1,27 @@
+.reg-btn{
+    background-color: #1d4ed8;
+  color: white;
+  border: 1px solid black; 
+  border-radius: 6px;
+  padding: 10px 20px;
+  
+  cursor: pointer;
+}
+
+.reg-btn:hover{
+    background-color:  rgb(8, 44, 78);
+}
+
+.reg-btn2{
+    background-color: #1d4ed8;
+  color: white;
+  border: 1px solid black; 
+  border-radius: 6px;
+  padding: 10px 20px;
+  
+  cursor: pointer;
+}
+
+.reg-btn2:hover{
+    background-color:  rgb(8, 44, 78);
+}

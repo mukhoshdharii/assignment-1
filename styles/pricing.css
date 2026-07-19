@@ -1,0 +1,63 @@
+.price{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    padding-left: 65px;
+    padding-right: 65px;
+    
+}
+.standard{
+    
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 7px;
+    height: 442px;
+    width: 370.66px;
+}
+
+.team{
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 7px;
+    height: 442px;
+    width: 370.66px;
+
+
+}
+
+.pro{
+    background-color: #e5e7eb;
+    border-radius: 8px;
+    padding: 7px;
+    height: 442px;
+    width: 370.66px;
+
+}
+
+.std-btn{
+    border-radius: 8px;
+    width: 304.66px;
+    height: 45px;
+}
+
+.pro-btn{
+    border-radius: 8px;
+    width: 304.66px;
+    height: 45px;
+}
+
+.cts-btn{
+    border-radius: 8px;
+    width: 304.66px;
+    height: 45px;
+}
+
+.price-btn{
+    
+    padding-left: 30px;
+    margin-top: 185px;
+    
+}
