@@ -22,6 +22,6 @@
   cursor: pointer;
 }
 
-.reg-btn2:hover{
+button:hover{
     background-color:  rgb(8, 44, 78);
 }
