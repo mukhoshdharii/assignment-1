@@ -62,7 +62,7 @@
 .price-btn{
     
     padding-left: 30px;
-    margin-top: 125px;
+    margin-top: 85px;
     
 }
 
@@ -72,5 +72,6 @@
 }
 
 .phead{
-    border-bottom: 1px solid #11306e;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 8%;
 }
